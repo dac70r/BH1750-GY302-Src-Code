@@ -151,8 +151,8 @@ int main(void)
 						lux_data += 0;
 			}
 		}
-		char data[10];
-		sprintf(data, "%04d lux ", lux_data);
+		char data[14];
+		sprintf(data, "%04d lux \r\n", lux_data);
 		light_on_Init();
 		
 		for (uint8_t x=0;x<5;x++)

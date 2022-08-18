@@ -1610,27 +1610,27 @@ Image Symbol Table
     L                                        0x08004b00   Data          48  pow.o(.constdata)
     P                                        0x08004b30   Data          40  pow.o(.constdata)
     .constdata                               0x08004b58   Section        8  qnan.o(.constdata)
-    .L.str.1                                 0x08004b78   Data          10  main.o(.rodata.str1.1)
+    .L.str.1                                 0x08004b78   Data          12  main.o(.rodata.str1.1)
     [Anonymous Symbol]                       0x08004b78   Section        0  main.o(.rodata.str1.1)
-    .L.str                                   0x08004b82   Data           5  main.o(.rodata.str1.1)
-    .L.str.16                                0x08004b87   Data          16  hex2bin.o(.rodata.str1.1)
-    [Anonymous Symbol]                       0x08004b87   Section        0  hex2bin.o(.rodata.str1.1)
-    .L.str                                   0x08004b97   Data           5  hex2bin.o(.rodata.str1.1)
-    .L.str.8                                 0x08004b9c   Data           5  hex2bin.o(.rodata.str1.1)
-    .L.str.4                                 0x08004ba1   Data           5  hex2bin.o(.rodata.str1.1)
-    .L.str.12                                0x08004ba6   Data           5  hex2bin.o(.rodata.str1.1)
-    .L.str.2                                 0x08004bab   Data           5  hex2bin.o(.rodata.str1.1)
-    .L.str.10                                0x08004bb0   Data           5  hex2bin.o(.rodata.str1.1)
-    .L.str.6                                 0x08004bb5   Data           5  hex2bin.o(.rodata.str1.1)
-    .L.str.14                                0x08004bba   Data           5  hex2bin.o(.rodata.str1.1)
-    .L.str.1                                 0x08004bbf   Data           5  hex2bin.o(.rodata.str1.1)
-    .L.str.9                                 0x08004bc4   Data           5  hex2bin.o(.rodata.str1.1)
-    .L.str.5                                 0x08004bc9   Data           5  hex2bin.o(.rodata.str1.1)
-    .L.str.13                                0x08004bce   Data           5  hex2bin.o(.rodata.str1.1)
-    .L.str.3                                 0x08004bd3   Data           5  hex2bin.o(.rodata.str1.1)
-    .L.str.11                                0x08004bd8   Data           5  hex2bin.o(.rodata.str1.1)
-    .L.str.7                                 0x08004bdd   Data           5  hex2bin.o(.rodata.str1.1)
-    .L.str.15                                0x08004be2   Data           5  hex2bin.o(.rodata.str1.1)
+    .L.str                                   0x08004b84   Data           5  main.o(.rodata.str1.1)
+    .L.str.16                                0x08004b89   Data          16  hex2bin.o(.rodata.str1.1)
+    [Anonymous Symbol]                       0x08004b89   Section        0  hex2bin.o(.rodata.str1.1)
+    .L.str                                   0x08004b99   Data           5  hex2bin.o(.rodata.str1.1)
+    .L.str.8                                 0x08004b9e   Data           5  hex2bin.o(.rodata.str1.1)
+    .L.str.4                                 0x08004ba3   Data           5  hex2bin.o(.rodata.str1.1)
+    .L.str.12                                0x08004ba8   Data           5  hex2bin.o(.rodata.str1.1)
+    .L.str.2                                 0x08004bad   Data           5  hex2bin.o(.rodata.str1.1)
+    .L.str.10                                0x08004bb2   Data           5  hex2bin.o(.rodata.str1.1)
+    .L.str.6                                 0x08004bb7   Data           5  hex2bin.o(.rodata.str1.1)
+    .L.str.14                                0x08004bbc   Data           5  hex2bin.o(.rodata.str1.1)
+    .L.str.1                                 0x08004bc1   Data           5  hex2bin.o(.rodata.str1.1)
+    .L.str.9                                 0x08004bc6   Data           5  hex2bin.o(.rodata.str1.1)
+    .L.str.5                                 0x08004bcb   Data           5  hex2bin.o(.rodata.str1.1)
+    .L.str.13                                0x08004bd0   Data           5  hex2bin.o(.rodata.str1.1)
+    .L.str.3                                 0x08004bd5   Data           5  hex2bin.o(.rodata.str1.1)
+    .L.str.11                                0x08004bda   Data           5  hex2bin.o(.rodata.str1.1)
+    .L.str.7                                 0x08004bdf   Data           5  hex2bin.o(.rodata.str1.1)
+    .L.str.15                                0x08004be4   Data           5  hex2bin.o(.rodata.str1.1)
     _errno                                   0x20000000   Data           4  errno.o(.data)
     .data                                    0x20000000   Section        4  errno.o(.data)
     light_on                                 0x200000a5   Data           5  func.o(.bss.light_on)
@@ -1822,8 +1822,8 @@ Image Symbol Table
     __mathlib_zero                           0x08004b58   Data           8  qnan.o(.constdata)
     AHBPrescTable                            0x08004b60   Data          16  system_stm32f1xx.o(.rodata.AHBPrescTable)
     APBPrescTable                            0x08004b70   Data           8  system_stm32f1xx.o(.rodata.APBPrescTable)
-    Region$$Table$$Base                      0x08004be8   Number         0  anon$$obj.o(Region$$Table)
-    Region$$Table$$Limit                     0x08004c08   Number         0  anon$$obj.o(Region$$Table)
+    Region$$Table$$Base                      0x08004bec   Number         0  anon$$obj.o(Region$$Table)
+    Region$$Table$$Limit                     0x08004c0c   Number         0  anon$$obj.o(Region$$Table)
     SystemCoreClock                          0x20000004   Data           4  system_stm32f1xx.o(.data.SystemCoreClock)
     dataBuffer                               0x20000008   Data           2  main.o(.data.dataBuffer)
     uwTickFreq                               0x2000000a   Data           1  stm32f1xx_hal.o(.data.uwTickFreq)
@@ -1843,9 +1843,9 @@ Memory Map of the image
 
   Image Entry point : 0x08000131
 
-  Load Region LR_IROM1 (Base: 0x08000000, Size: 0x00004c18, Max: 0x00080000, ABSOLUTE)
+  Load Region LR_IROM1 (Base: 0x08000000, Size: 0x00004c20, Max: 0x00080000, ABSOLUTE)
 
-    Execution Region ER_IROM1 (Exec base: 0x08000000, Load base: 0x08000000, Size: 0x00004c08, Max: 0x00080000, ABSOLUTE)
+    Execution Region ER_IROM1 (Exec base: 0x08000000, Load base: 0x08000000, Size: 0x00004c0c, Max: 0x00080000, ABSOLUTE)
 
     Exec Addr    Load Addr    Size         Type   Attr      Idx    E Section Name        Object
 
@@ -1997,22 +1997,22 @@ Memory Map of the image
     0x08004b58   0x08004b58   0x00000008   Data   RO          828    .constdata          m_ws.l(qnan.o)
     0x08004b60   0x08004b60   0x00000010   Data   RO          750    .rodata.AHBPrescTable  system_stm32f1xx.o
     0x08004b70   0x08004b70   0x00000008   Data   RO          751    .rodata.APBPrescTable  system_stm32f1xx.o
-    0x08004b78   0x08004b78   0x0000000f   Data   RO           28    .rodata.str1.1      main.o
-    0x08004b87   0x08004b87   0x00000060   Data   RO           82    .rodata.str1.1      hex2bin.o
-    0x08004be7   0x08004be7   0x00000001   PAD
-    0x08004be8   0x08004be8   0x00000020   Data   RO          898    Region$$Table       anon$$obj.o
+    0x08004b78   0x08004b78   0x00000011   Data   RO           28    .rodata.str1.1      main.o
+    0x08004b89   0x08004b89   0x00000060   Data   RO           82    .rodata.str1.1      hex2bin.o
+    0x08004be9   0x08004be9   0x00000003   PAD
+    0x08004bec   0x08004bec   0x00000020   Data   RO          898    Region$$Table       anon$$obj.o
 
 
-    Execution Region RW_IRAM1 (Exec base: 0x20000000, Load base: 0x08004c08, Size: 0x000004c0, Max: 0x00010000, ABSOLUTE)
+    Execution Region RW_IRAM1 (Exec base: 0x20000000, Load base: 0x08004c10, Size: 0x000004c0, Max: 0x00010000, ABSOLUTE)
 
     Exec Addr    Load Addr    Size         Type   Attr      Idx    E Section Name        Object
 
-    0x20000000   0x08004c08   0x00000004   Data   RW          874    .data               mc_w.l(errno.o)
-    0x20000004   0x08004c0c   0x00000004   Data   RW          749    .data.SystemCoreClock  system_stm32f1xx.o
-    0x20000008   0x08004c10   0x00000002   Data   RW           26    .data.dataBuffer    main.o
-    0x2000000a   0x08004c12   0x00000001   Data   RW          443    .data.uwTickFreq    stm32f1xx_hal.o
-    0x2000000b   0x08004c13   0x00000001   PAD
-    0x2000000c   0x08004c14   0x00000004   Data   RW          442    .data.uwTickPrio    stm32f1xx_hal.o
+    0x20000000   0x08004c10   0x00000004   Data   RW          874    .data               mc_w.l(errno.o)
+    0x20000004   0x08004c14   0x00000004   Data   RW          749    .data.SystemCoreClock  system_stm32f1xx.o
+    0x20000008   0x08004c18   0x00000002   Data   RW           26    .data.dataBuffer    main.o
+    0x2000000a   0x08004c1a   0x00000001   Data   RW          443    .data.uwTickFreq    stm32f1xx_hal.o
+    0x2000000b   0x08004c1b   0x00000001   PAD
+    0x2000000c   0x08004c1c   0x00000004   Data   RW          442    .data.uwTickPrio    stm32f1xx_hal.o
     0x20000010        -       0x00000054   Zero   RW           27    .bss.hi2c1          main.o
     0x20000064        -       0x00000040   Zero   RW           29    .bss.huart1         main.o
     0x200000a4        -       0x00000001   Zero   RW           97    .bss.index_number   func.o
@@ -2020,9 +2020,9 @@ Memory Map of the image
     0x200000aa        -       0x00000005   Zero   RW           99    .bss.light_on_initial  func.o
     0x200000af        -       0x00000001   Zero   RW           98    .bss.light_status   func.o
     0x200000b0        -       0x00000005   Zero   RW          101    .bss.sum_of_light_on  func.o
-    0x200000b5   0x08004c18   0x00000003   PAD
+    0x200000b5   0x08004c20   0x00000003   PAD
     0x200000b8        -       0x00000004   Zero   RW          444    .bss.uwTick         stm32f1xx_hal.o
-    0x200000bc   0x08004c18   0x00000004   PAD
+    0x200000bc   0x08004c20   0x00000004   PAD
     0x200000c0        -       0x00000400   Zero   RW            1    STACK               startup_stm32f103xe.o
 
 
@@ -2033,24 +2033,24 @@ Image component sizes
 
       Code (inc. data)   RO Data    RW Data    ZI Data      Debug   Object Name
 
-       502          0          0          0         17       1872   func.o
-       402         56         96          0          0        803   hex2bin.o
-       920          0         15          2        148       7202   main.o
-        36          8        304          0       1024        800   startup_stm32f103xe.o
-       260          0          0          5          4       5724   stm32f1xx_hal.o
-       416          0          0          0          0       7749   stm32f1xx_hal_cortex.o
-       904          0          0          0          0       4266   stm32f1xx_hal_gpio.o
-      3960          0          0          0          0      32944   stm32f1xx_hal_i2c.o
-       412          0          0          0          0       5708   stm32f1xx_hal_msp.o
-      2652          0          0          0          0       7404   stm32f1xx_hal_rcc.o
-      1198          0          0          0          0      14966   stm32f1xx_hal_uart.o
-        32          0          0          0          0       1019   stm32f1xx_it.o
-        96          0         24          4          0       2113   system_stm32f1xx.o
+       502          0          0          0         17       1884   func.o
+       402         56         96          0          0        815   hex2bin.o
+       920          0         17          2        148       7214   main.o
+        36          8        304          0       1024        812   startup_stm32f103xe.o
+       260          0          0          5          4       5736   stm32f1xx_hal.o
+       416          0          0          0          0       7761   stm32f1xx_hal_cortex.o
+       904          0          0          0          0       4278   stm32f1xx_hal_gpio.o
+      3960          0          0          0          0      32956   stm32f1xx_hal_i2c.o
+       412          0          0          0          0       5720   stm32f1xx_hal_msp.o
+      2652          0          0          0          0       7416   stm32f1xx_hal_rcc.o
+      1198          0          0          0          0      14978   stm32f1xx_hal_uart.o
+        32          0          0          0          0       1031   stm32f1xx_it.o
+        96          0         24          4          0       2125   system_stm32f1xx.o
 
     ----------------------------------------------------------------------
-     11844         64        472         12       1200      92570   Object Totals
+     11844         64        476         12       1200      92726   Object Totals
          0          0         32          0          0          0   (incl. Generated)
-        54          0          1          1          7          0   (incl. Padding)
+        54          0          3          1          7          0   (incl. Padding)
 
     ----------------------------------------------------------------------
 
@@ -2118,15 +2118,15 @@ Image component sizes
 
       Code (inc. data)   RO Data    RW Data    ZI Data      Debug   
 
-     18848        370        616         16       1200      94118   Grand Totals
-     18848        370        616         16       1200      94118   ELF Image Totals
-     18848        370        616         16          0          0   ROM Totals
+     18848        370        620         16       1200      94274   Grand Totals
+     18848        370        620         16       1200      94274   ELF Image Totals
+     18848        370        620         16          0          0   ROM Totals
 
 ==============================================================================
 
-    Total RO  Size (Code + RO Data)                19464 (  19.01kB)
+    Total RO  Size (Code + RO Data)                19468 (  19.01kB)
     Total RW  Size (RW Data + ZI Data)              1216 (   1.19kB)
-    Total ROM Size (Code + RO Data + RW Data)      19480 (  19.02kB)
+    Total ROM Size (Code + RO Data + RW Data)      19484 (  19.03kB)
 
 ==============================================================================
 
