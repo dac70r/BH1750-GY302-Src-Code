@@ -6,3 +6,5 @@ An algorithm was written to convert the raw data collected into lux. Several oth
 
 Demo video: https://youtu.be/TN-9Gn_Q5uE
 
+Relevant datasheet: https://drive.google.com/file/d/1JgbFdE8dSqoV4eVvHVGUSsGNMlwSdZYU/view
+
